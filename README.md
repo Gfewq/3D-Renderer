@@ -20,7 +20,9 @@ The Makefile automatically compiles with all required source files and links the
 
 To compile the project:
 
-```make```
+``` bash
+
+make ``` 
 
 ##  ▶️ How to Run
 
@@ -35,6 +37,37 @@ Example:
 
 You can then open the generated .ppm file using:
 
-The provided viewppm viewer (for quick terminal previews), or
+- The provided viewppm viewer (for quick terminal previews), or
 
-Any image viewer that supports PPM files (e.g. VS Code PPM plugin, or an online PPM viewer).
+- Any image viewer that supports PPM files (e.g. VS Code PPM plugin, or an online PPM viewer).
+
+## 🧩 Input Format
+
+The input text file describes the scene setup, including camera, light, colors, and sphere data. 
+
+Example:
+
+640 480
+2.0
+1.0
+20.0 20.0 10.0 1000.0
+4
+0x1188EE 0xDD2266 0xDD7700 0x11CC66
+0
+3
+2.0 0.0 -5.0 2.0 2
+-2.0 0.0 -5.0 2.0 3
+0.0 -102.0 -5.0 100.0 1
+
+
+Where:
+
+- First two lines specify image and viewport size
+
+- Light position and brightness follow
+
+- Next is the color palette (in HEX)
+
+- Then the background color index
+
+- Finally, the list of spheres (position, radius, and color index)
