@@ -26,12 +26,12 @@ To compile the project:
 
 Run the final renderer with:
 
-./FS_assg <input_file> <output_file.ppm>
+```./FS_assg <input_file> <output_file.ppm>```
 
 
 Example:
 
-./FS_assg scenes/scene1.txt output.ppm
+```./FS_assg scenes/scene1.txt output.ppm```
 
 You can then open the generated .ppm file using:
 
