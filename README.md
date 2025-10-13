@@ -19,6 +19,7 @@ Make sure you have `gcc` and `make` installed.
 The Makefile automatically compiles with all required source files and links the math library (-lm).
 
 To compile the project:
+
 ```make```
 
 ##  ▶️ How to Run
