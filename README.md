@@ -81,15 +81,15 @@ Where:
 
 ## 🌈 Features
 
-Realistic Ray Tracing — Simulates rays cast from a virtual camera to compute pixel colors.
+- Realistic Ray Tracing — Simulates rays cast from a virtual camera to compute pixel colors.
 
-Accurate Lighting & Shadows — Calculates shading based on light intensity and occlusion.
+- Accurate Lighting & Shadows — Calculates shading based on light intensity and occlusion.
 
-Anti-Aliasing — 9-sample grid smoothing for each pixel.
+- Anti-Aliasing — 9-sample grid smoothing for each pixel.
 
-Full Color Rendering — Converts HEX colors to RGB and applies per-object coloring.
+- Full Color Rendering — Converts HEX colors to RGB and applies per-object coloring.
 
-Modular Design — Separate files for vectors, spheres, and color operations for maintainability.
+- Modular Design — Separate files for vectors, spheres, and color operations for maintainability.
 
 ## 📦 Output
 
